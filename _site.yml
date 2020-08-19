@@ -1,9 +1,31 @@
-name: "personal-website"
+name: "Ben Omar Sidiki Fayçal OUEDRAOGO"
 output_dir: "."
 navbar:
-  title: "Personal Website"
+  title: "Ben Omar Sidiki Fayçal OUEDRAOGO"
   left:
-    - text: "Home"
+    - text: "Accueil"
+      icon: fa-home
       href: index.html
-    - text: "About Me"
+    - text: "A propos de moi"
+      icon: fa-info
       href: about.html
+    - text: "Mon CV"
+      menu:
+       - text: "version courte"
+       - href: cv/obosf_vc.pdf
+       - text: "version longue"
+       - href: cv/obosf_vl.pdf
+  right:
+    - icon: fa-envelope
+      href: mailto:faycaloued@gmail.com
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/ben-fay%C3%A7al-ouedraogo-5b25b7174/
+  output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+  
+    
