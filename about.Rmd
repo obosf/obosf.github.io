@@ -1,5 +1,41 @@
 ---
 title: "Qui suis-je?"
 ---
+<!--
+LE STYLE POUR LA MISE EN FORME DE LA PAGE
+-->
+<style>
+#page-wrap {
+     width: 600px;
+     margin: 0 auto;
+     text-align: justify;
+}
+body .main-container {
+max-width: 620px;
+}
 
-Why I am awesome. 
+.nom{
+color: #534d6b;
+}
+
+
+</style>
+
+<!--
+FIN DE STYLE
+-->
+
+<div id="page-wrap">
+Je suis <span class="nom">Ben Omar Sidiki Fayçal OUEDRAOGO </span>, ingénieur industriel motivé et passionné, à la recherche 
+d'une.
+Ayant passé par les classes préparatoires, j'ai acquis les fondamentaux mathématiques qui m'ont permis 
+de développés des compétences solides dans les domaines suivantes:
+
+*
+*
+*
+
+Je cherche une entreprise dans laquelle, je pourrais mettre à profit mes connaissances et apprendre des autres
+pour relever ensemble de nombreux challenges.
+Pour en savoir plus sur mon parcours et mes expériences consulter mon la version complète de mon cv [ici](cv/obosf_vl.pdf) ou la version réduite [ici](cv/obosf_vc.pdf)
+</div>

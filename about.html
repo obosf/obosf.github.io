@@ -15,15 +15,13 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -260,68 +258,26 @@ $(document).ready(function () {
 
 
 
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Ben Omar Sidiki Fayçal OUEDRAOGO</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    Accueil
-  </a>
-</li>
-<li>
-  <a href="about.html">
-    <span class="fa fa-info"></span>
-     
-    A propos de moi
-  </a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Mon CV
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">version courte</li>
-    <li>
-      <a href="cv/obosf_vc.pdf"></a>
-    </li>
-    <li class="dropdown-header">version longue</li>
-    <li>
-      <a href="cv/obosf_vl.pdf"></a>
-    </li>
-  </ul>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="mailto:faycaloued@gmail.com">
-    <span class="fa fa-envelope"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://www.linkedin.com/in/ben-fay%C3%A7al-ouedraogo-5b25b7174/">
-    <span class="fa fa-linkedin"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<div class="bs-example">
+    <ul class="nav nav-pills mb-5">
+        <li class="nav-item">
+            <a href="index.html" class="nav-link active">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a href="about.html" class="nav-link">A propos de moi</a>
+        </li>
+        <li class="nav-item dropdown ml-auto">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CV</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <ul>
+                <a href="cv/obosf_vc.pdf" class="dropdown-item">Version courte</a> 
+                <a href="cv/obosf_vl.pdf" class="dropdown-item">Version complète</a> 
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <hr>
+</div>
 
 <div class="fluid-row" id="header">
 
@@ -332,8 +288,47 @@ $(document).ready(function () {
 </div>
 
 
-<p>Why I am awesome.</p>
+<!--
+LE STYLE POUR LA MISE EN FORME DE LA PAGE
+-->
+<style>
+#page-wrap {
+     width: 600px;
+     margin: 0 auto;
+     text-align: justify;
+}
+body .main-container {
+max-width: 620px;
+}
 
+.nom{
+color: #534d6b;
+}
+
+
+</style>
+<!--
+FIN DE STYLE
+-->
+<div id="page-wrap">
+<p>Je suis <span class="nom">Ben Omar Sidiki Fayçal OUEDRAOGO </span>, ingénieur industriel motivé et passionné, à la recherche d’une. Ayant passé par les classes préparatoires, j’ai acquis les fondamentaux mathématiques qui m’ont permis de développés des compétences solides dans les domaines suivantes:</p>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<p>Je cherche une entreprise dans laquelle, je pourrais mettre à profit mes connaissances et apprendre des autres pour relever ensemble de nombreux challenges. Pour en savoir plus sur mon parcours et mes expériences consulter mon la version complète de mon cv <a href="cv/obosf_vl.pdf">ici</a> ou la version réduite <a href="cv/obosf_vc.pdf">ici</a></p>
+</div>
+
+<p class="footer">Copyright &copy; <script>document.write(new Date().getFullYear())</script>,  Ben Omar Sidiki Fayçal Ouedraogo</p>
+<style>
+  .footer{
+    position: fixed;
+    bottom: 5px;
+    size: 10px;
+    text-align: center;
+  }
+</style>
 
 
 
