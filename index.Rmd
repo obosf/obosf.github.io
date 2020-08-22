@@ -198,7 +198,7 @@ padding-top: 3px;
 d'un poste d'ingénieur industriel dans une entreprise dans laquelle, je pourrai mettre à profit mes connaissances et apprendre des autres
 pour relever ensemble des challenges.
 Passé par les classes préparatoires aux grandes écoles (CPGE), j'ai acquis les fondamentaux mathématiques qui m'ont permis 
-de développés des compétences solides 
+de développés des compétences solides pour occuper pleinement le rôle d'ingénieur industriel.
 
 Pour en savoir plus sur mon parcours et mes expériences veuillez consulter la version complète de mon cv [ici](cv/obosf_vl.pdf) ou la version réduite [ici](cv/obosf_vc.pdf).</p>
 </div>
