@@ -170,8 +170,8 @@ padding-top: 3px;
 <div class="icon">
 
 <div class="item">
-<a itemprop="sameAs" href="index.html/" >
-<img src="https://img.icons8.com/color/48/000000/paper-plane.png">
+<a itemprop="sameAs" href="cv/obosf_vc.pdf" >
+<img src="https://img.icons8.com/bubbles/50/000000/resume.png">
 </a>
 </div>
 
