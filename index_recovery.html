@@ -11,7 +11,7 @@
 
 
 
-<title>Qui suis-je?</title>
+<title>Fayçal Ouédraogo</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -289,7 +289,7 @@ bottom:0px;
 
 
 
-<h1 class="title toc-ignore">Qui suis-je?</h1>
+<h1 class="title toc-ignore">Fayçal Ouédraogo</h1>
 
 </div>
 
@@ -306,9 +306,45 @@ LE STYLE POUR LA MISE EN FORME DE LA PAGE
 body .main-container {
 max-width: 620px;
 }
+h1.title {
+  font-size: 20px;
+  color: #534d6b;
+}
 
-.nom{
-color: #534d6b;
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.img-faycal{
+  border-radius: 50%;
+}
+
+img-faycal:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+img {
+    max-width:50%;
+    height:auto;
+}
+.icon-item{
+max-width:30%;
+height:auto;
+}
+
+.icons{
+display: flex;
+justify-content: space-between;
+}
+.droite{
+display: flex;
+justify-content: space-between;
+max-width: 75%;
+}
+.gauche{
+max-width: 20%;
 }
 
 
@@ -316,15 +352,39 @@ color: #534d6b;
 <!--
 FIN DE STYLE
 -->
-<div id="page-wrap">
-<p>Je suis <span class="nom">Ben Omar Sidiki Fayçal OUEDRAOGO </span>, ingénieur industriel motivé et passionné, à la recherche d’une. Ayant passé par les classes préparatoires, j’ai acquis les fondamentaux mathématiques qui m’ont permis de développés des compétences solides dans les domaines suivantes:</p>
+<section>
+<!-- GAUCHE -->
+<div class="gauche">
+<img class="img-faycal"
+     src="FAYCAL.PNG"
+     alt="My photo"> <!-- icons -->
+<div class="icons">
+<p><a href="mailto:faycaloued@gmail.com"> <img class="icon-item" src="https://img.icons8.com/plasticine/100/000000/important-mail.png"/ width="30" height="65"> </a> <a href="https://www.linkedin.com/in/ben-fay%C3%A7al-ouedraogo-5b25b7174/" > <img
+class="icon-item" src="https://img.icons8.com/fluent/48/000000/linkedin-2.png"/ width="20" height="28"></a></p>
+</div>
+</div>
+<!-- DROITE -->
+<div class="droite">
+<!--  Intérêts -->
+<div>
+<h3 id="intérêts">Intérêts</h3>
 <ul>
 <li></li>
 <li></li>
 <li></li>
 </ul>
-<p>Je cherche une entreprise dans laquelle, je pourrais mettre à profit mes connaissances et apprendre des autres pour relever ensemble de nombreux challenges. Pour en savoir plus sur mon parcours et mes expériences consulter mon la version complète de mon cv <a href="cv/obosf_vl.pdf">ici</a> ou la version réduite <a href="cv/obosf_vc.pdf">ici</a></p>
 </div>
+<!--  Formation -->
+<div>
+<h3 id="formation">Formation</h3>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+</div>
+</section>
 
 <p class="footer">Copyright &copy; <script>document.write(new Date().getFullYear())</script>, Fayçal Ouedraogo</p>
 <style>

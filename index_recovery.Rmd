@@ -1,0 +1,100 @@
+---
+title: Fayçal Ouédraogo
+---
+<!--
+LE STYLE POUR LA MISE EN FORME DE LA PAGE
+-->
+<style>
+#page-wrap {
+     width: 600px;
+     margin: 0 auto;
+     text-align: justify;
+}
+body .main-container {
+max-width: 620px;
+}
+h1.title {
+  font-size: 20px;
+  color: #534d6b;
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.img-faycal{
+  border-radius: 50%;
+}
+
+img-faycal:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+img {
+	max-width:50%;
+	height:auto;
+}
+.icon-item{
+max-width:30%;
+height:auto;
+}
+
+.icons{
+display: flex;
+justify-content: space-between;
+}
+.droite{
+display: flex;
+justify-content: space-between;
+max-width: 75%;
+}
+.gauche{
+max-width: 20%;
+}
+
+
+</style>
+
+<!--
+FIN DE STYLE
+-->
+
+
+
+<section>
+<!-- GAUCHE -->
+<div class="gauche">
+<img class="img-faycal"
+     src="FAYCAL.PNG"
+     alt="My photo">
+<!-- icons -->
+<div class="icons">
+ <a href="mailto:faycaloued@gmail.com"> <img class="icon-item" src="https://img.icons8.com/plasticine/100/000000/important-mail.png"/ width="30" height="65"> </a>
+<a href="https://www.linkedin.com/in/ben-fay%C3%A7al-ouedraogo-5b25b7174/" > <img
+class="icon-item" src="https://img.icons8.com/fluent/48/000000/linkedin-2.png"/ width="20" height="28"></a>
+</div>
+</div>
+<!-- DROITE -->
+<div class="droite">
+<!--  Intérêts -->
+<div>
+### Intérêts
+
+*
+*
+*
+</div>
+
+<!--  Formation -->
+<div> 
+
+### Formation
+
+*
+*
+*
+</div>
+</div>
+</section>

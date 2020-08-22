@@ -263,9 +263,6 @@ $(document).ready(function () {
         <li class="nav-item">
             <a href="index.html" class="nav-link active">Accueil</a>
         </li>
-        <li class="nav-item">
-            <a href="about.html" class="nav-link">A propos de moi</a>
-        </li>
         <li class="nav-item dropdown ml-auto">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CV</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -276,8 +273,17 @@ $(document).ready(function () {
             </div>
         </li>
     </ul>
-    <hr>
+    <hr class="ligne-horizontal">
 </div>
+
+
+<style>
+    .ligne-horizontal{
+height:4px;
+top:0px;
+bottom:0px;
+}
+</style>
 
 <div class="fluid-row" id="header">
 
@@ -288,79 +294,267 @@ $(document).ready(function () {
 </div>
 
 
-<!--
-LE STYLE POUR LA MISE EN FORME DE LA PAGE
--->
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"> <a href="https://icons8.com/icon/13441/python" class="python">Python icon by Icons8</a>
 <style>
-#page-wrap {
-     width: 600px;
-     margin: 0 auto;
-     text-align: justify;
+.title{
+display:none;
 }
-body .main-container {
-max-width: 620px;
+.python{
+display:none;
 }
-h1.title {
-  font-size: 20px;
-  color: #534d6b;
-}
-
-section
-{
-    display: flex;
-    margin-bottom: 20px;
+.column-left{
+  float: left;
+  width: 28%;
+  text-align: center;
 }
 
-.img-faycal{
+.column-right{
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+.photo{
+  display: inline-block;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
   border-radius: 50%;
 }
 
-img-faycal:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.about{
+text-align: justify;
+top:130px
 }
-img {
-    max-width:50%;
-    height:auto;
+
+.global{
+    position: absolute;
+    top: 120px;
+    width:75%;
+    
 }
-.icon-item{
-max-width:30%;
-height:auto;
+.bas-image{
+text-align: center;
 }
+
+.network-icon{
+  top=0px
+  left=20px
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between
+  width:120px;
+  height:80px;
+  padding:5px; /* this */
+  align-items: center
+}
+
+.network-icon li:hover {
+  transform: scale(2);
+}
+.under-about{
+top:0px;
+display:flex;
+justify-content: space-between;
+}
+.child-under-about{
+top:0px;
+text-align: left;
+width: 40%
+}
+.ligne-horizontal{
+height:4px;
+top:0px;
+bottom:0px;
+}
+
+.icon{
+display:flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+}
+.item{
+width:35px;
+}
+.child-about-formation{
+top:0px;
+text-align: left;
+width: 60%
+}
+.description, .institution, .course{
+text-align: left;
+ margin:0 ;
+}
+.location{
+color: #348ceb
+}
+.skills{
+display:flex;
+justify-content:space-evenly;
+margin-top:0px;
+}
+.child-skills1{
+width: 50px;
+}
+.child-skills2{
+width: 50px;
+}
+
+.child-skills3{
+width: 50px;
+}
+
+.child-skills4{
+width: 50px;
+}
+
+.child-skills5{
+width: 50px;
+}
+.academic{
+width: 5%;
+  height: 5%;
+}
+.orcid{
+width: 80%;
+height: auto;
+top:50px;
+}
+.rproject{
+color:#0515f7;
+}
+
+body{
+position: center;
+}
+/* bullets */
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+li.leaf {
+background: url('img/graduate.png') no-repeat left top;
+padding-left: 44px;
+padding-top: 3px;
+}
+
 </style>
-<!--
-FIN DE STYLE
--->
-<section>
-<!-- GAUCHE -->
-<div class="gauche">
-<img class="img-faycal"
-     src="FAYCAL.PNG"
-     alt="My photo"> <!-- icons -->
-<div class="icons">
-<p><a href="mailto:faycaloued@gmail.com"> <img class="icon-item" src="https://img.icons8.com/plasticine/100/000000/important-mail.png"/ width="30" height="65"> </a> <a href="https://www.linkedin.com/in/ben-fay%C3%A7al-ouedraogo-5b25b7174/" > <img
-class="icon-item" src="https://img.icons8.com/fluent/48/000000/linkedin-2.png"/ width="20" height="28"></a></p>
+<div class = "global">
+<div class="column-left">
+<div class="photo">
+<p><img src="img/FAYCAL.PNG" /></p>
+</div>
+<p class="bas-image">
+Fayçal Ouedraogo
+</p>
+<p class="bas-image">
+Ingénieur Industriel
+</p>
+<ul class="network-icon" aria-hidden="true">
+<div class="icon">
+<div class="item">
+<p><a itemprop="sameAs" href="index.html/" > <img src="https://img.icons8.com/color/48/000000/paper-plane.png"> </a></p>
+</div>
+<div class="item">
+<p><a itemprop="sameAs" href="https://www.linkedin.com/in/ben-fay%C3%A7al-ouedraogo-5b25b7174/" target="_blank" rel="noopener"> <img src="https://img.icons8.com/color/48/000000/linkedin-2.png"> </a></p>
+</div>
+<div class="item">
+<p><a itemprop="sameAs" href="mailto:faycaloued@gmail.com" > <img src="https://img.icons8.com/color/48/000000/gmail.png"> </a></p>
 </div>
 </div>
-<!-- DROITE -->
-<div class="droite">
-<!--  Intérêts -->
-<div>
+</ul>
+</div>
+<div class="column-right">
+<div class="about">
+<p>
+<p>Je suis <span class="nom">Ben Omar Sidiki Fayçal OUEDRAOGO </span>, ingénieur industriel motivé et passionné, à la recherche d’un poste d’ingénieur industriel dans une entreprise dans laquelle, je pourrai mettre à profit mes connaissances et apprendre des autres pour relever ensemble des challenges. Passé par les classes préparatoires aux grandes écoles (CPGE), j’ai acquis les fondamentaux mathématiques qui m’ont permis de développés des compétences solides dans les domaines suivantes:</p>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+Pour en savoir plus sur mon parcours et mes expériences veuillez consulter la version complète de mon cv <a href="cv/obosf_vl.pdf">ici</a> ou la version réduite <a href="cv/obosf_vc.pdf">ici</a>.
+</p>
+</div>
+<hr class="ligne-horizontal">
+<div class="under-about">
+<div class="child-under-about">
+<h3>
+Intérêts
+</h3>
+<ul>
+<li>Ingénierie industrielle</li>
+<li>Méthode Paréto</li>
+<li>Autocad</li>
+<li>Tia Portal</li>
+<li>Minitab 18</li>
+</ul>
+</div>
+<div class="child-about-formation">
+<h3>
+Formation
+</h3>
+<ul class="no_bullet">
+<li class="leaf">
+<i class="fa-li fas fa-graduation-cap"></i>
+<div class="description">
+<p class="course">
+Diplôme d’ingénieur d’État en génie industriel, 2020
+</p>
+<p class="institution">
+École marocaine des sciences de l’ingénieur(EMSI)
+</p>
+<p class="location">
+Casablanca, Maroc
+</p>
+</div>
+</li>
+<li class="leaf">
+<i class="fa-li fas fa-graduation-cap"></i>
+<div class="description">
+<p class="course">
+Classes préparatoires au cycle d’ingénieur, 2017
+</p>
+<p class="institution">
+École marocaine d’ingénierie (EMG)
+</p>
+<p class="location">
+Casablanca, Maroc
+</p>
+</div>
+</li>
+<li class="leaf">
+<i class="fa-li fas fa-graduation-cap"></i>
+<div class="description">
+<p class="course">
+Baccalauréat série scientifique (série D), 2015
+</p>
+<p class="institution">
+Burkina Faso
+</p>
+<p class="location">
+Ouagadougou
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<hr class="ligne-horizontal">
+</div>
+</div>
 
-</div>
-<!--  Formation -->
-<div>
-
-</div>
-</div>
-</section>
-
-<p class="footer">Copyright &copy; <script>document.write(new Date().getFullYear())</script>,  Ben Omar Sidiki Fayçal Ouedraogo</p>
+<p class="footer">Copyright &copy; <script>document.write(new Date().getFullYear())</script>, Fayçal Ouedraogo</p>
 <style>
   .footer{
     position: fixed;
     bottom: 5px;
     size: 10px;
-    text-align: center;
+    text-align: left;
+    font-size: 10px;
   }
 </style>
 
