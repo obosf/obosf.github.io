@@ -26,16 +26,8 @@ FIN DE STYLE
 -->
 
 <div id="page-wrap">
-Je suis <span class="nom">Ben Omar Sidiki Fayçal OUEDRAOGO </span>, ingénieur industriel motivé et passionné, à la recherche 
-d'une.
-Ayant passé par les classes préparatoires, j'ai acquis les fondamentaux mathématiques qui m'ont permis 
-de développés des compétences solides dans les domaines suivantes:
 
-*
-*
-*
+Je me nomme Ben Omar Sidiki Fayçal OUEDRAOGO, Ingénieur d’État industriel.  Je suis à la recherche d’un emploi dans une entreprise dans laquelle je pourrai mettre en exergue mes acquis des différentes expériences professionnelles, mes compétences techniques du secteur industriel et mes aptitudes managériales en gestion de production, gestion de projets, gestion de la maintenance et qualité, sécurité, environnement et logistique au service de ladite entreprise.  Animé d’un bon esprit d’équipe, j’apporterai mon aide mais  j’apprendrai des autres afin qu’ensemble nous puissions relever des challenges. Passé par les classes préparatoires aux grandes écoles (CPGE), j’ai acquis les fondamentaux mathématiques qui m’ont permis de développer des compétences solides pour occuper pleinement le rôle d’ingénieur industriel.
 
-Je cherche une entreprise dans laquelle, je pourrais mettre à profit mes connaissances et apprendre des autres
-pour relever ensemble de nombreux challenges.
 Pour en savoir plus sur mon parcours et mes expériences consulter mon la version complète de mon cv [ici](cv/obosf_vl.pdf) ou la version réduite [ici](cv/obosf_vc.pdf)
 </div>
